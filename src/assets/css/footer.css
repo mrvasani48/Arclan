@@ -1,0 +1,89 @@
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .footer-left {
+    margin-bottom: 20px;
+    max-width: 550px;
+  }
+  .footer-left h3 {
+    font-family: 'Sail', cursive;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39.24px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .footer-left hr {
+    border: 1px solid white;
+    width: 100%;
+    margin: 20px 0; 
+  }
+  .footer-left p {
+    margin: 5px 0;
+    margin-bottom: 30px;
+    
+  }
+  .footer-left .copy{
+    font-size: 12px;
+  }
+  .footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-follow,
+  .footer-contact,
+  .footer-links {
+    margin: 0px 10px 10px 10px;
+  }
+  
+  .footer-links h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 0px;
+  }
+  .follow {
+    margin-top: 0px;
+  }
+  .footer-follow .social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer-links p {
+    margin: 15px 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-left,
+    .footer-follow,
+    .footer-links {
+      text-align: center;
+    }
+  
+    .footer-right {
+      flex-wrap: wrap;
+    }
+  
+    .footer-follow .social {
+      justify-content: center;
+    }
+  }
+  
